@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header para todos */
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    color: white;
+    gap: 200px;
+}
+
+.menu {
+    /* border: 1px solid blue;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 20px 20px 20px
+}
+
+.menu__enlaces {
+    /* border: 1px solid green;  */
+    text-decoration: none;
+    color: rgb(244, 244, 244);
+    font-size: large;
+    border-bottom: 2px solid transparent;
+}
+
+.menu__enlaces:hover {
+    border-bottom: 2px solid rgb(0, 0, 168);
+}
+
+/* HOME */
+
+.cuerpo_home {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 200px;
+    padding-top: 70px;
+    min-height: 80vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cuerpo_home span {
+    color: turquoise
+}
+
+.imagen_home {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 30px;
+
+}
+
+.cuerpotextotitulo h4{
+    font-weight: lighter;
+}
+
+.text_home {
+
+    color: rgb(244, 244, 244);
+    
+    font-size: xx-large;
+}
+
+.cuerpo3_home{
+    background-color: rgb( 25, 26, 28);
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:80px;
+
+}
+.cuerpo3__home{
+   
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:80px;
+}
+
+.cuerpotexto{
+    color: rgb(244, 244, 244);
+    font-family: 'Poppins', sans-serif;
+    margin-right: 100px;
+    font-weight: lighter;
+}
+
+.cuerpotexto2{
+    color: rgb(244, 244, 244);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    font-weight: lighter;
+}
+
+.cuerpotextotitulo{
+    color: rgb(244, 244, 244);
+    font-family: 'Poppins', sans-serif;
+    width:45%;
+    margin-left: 60px;
+    
+}
+
+.cuerpotextotitulo h1{
+    margin-bottom: 30px;
+}
+.cuerpotextotitulo h2{
+    margin-bottom: 20px;
+}
+
+
+.cuerpoimagen{
+    height: 300px;
+    width: 500px;
+    margin:50px 100px 50px 100px;
+
+}
+
+.cuerpo2_home{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    max-height: fit-content;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+    gap:50px;
+    margin-top: 40px;
+}
+
+.loguito{
+    height: 350px;
+    margin-left: 60px;
+}
+
+
+/* CONTACTO */
+
+.cuerpo_contacto {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+}
+
+.cuerpo_contacto h2{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    color:white
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    color: white;
+    gap: 15px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario label{
+    font-weight: bold;
+}
+
+.formulario fieldset,input,select{
+    border:none;
+    height: 20px;
+
+}
+
+.botones{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap:20px;
+    margin-top: 10px;
+}
+
+.boton{
+    width:60px;
+    height: 40px;
+    padding:10px 10px 10px 10px;
+    
+    border: none;
+
+    background-color: black;
+    color: lightskyblue;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cuerpo2_contacto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb( 25, 26, 28); */
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.cuerpo2_contacto span {
+    color:turquoise
+}
+
+/* CURSOS */
+
+.titulo_curso{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 35px;
+}
+.cuerpo_cursos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(244, 244, 244);
+    padding: 30px 30px 30px 30px;
+    font-family: 'Poppins', sans-serif;
+    gap:30px;
+    /* border: 1px solid red; */
+
+}
+
+.cuerpo_cursos h1{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tipos_curso{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tipos_curso{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.seccion{
+    display: flex;
+    flex-direction: row;
+    gap:7px;
+}
+.seccion p{
+    font-size: 20px;
+}
+
+.seccion h3{
+    font-size: 20px;
+}
+
+.fotocurso{
+    margin-bottom: 10px;
+    padding-left: 30px;
+    width: 400px;
+    height: 250px;
+
+}
+
+.fotocurso_data{
+    margin-bottom:10px;
+    padding-left: 30px;
+    width: 400px;
+    height: 250px;
+
+
+}
+.p_detalles{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+/* EQUIPO */
+
+.equipo_cuerpo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.equipo_cuerpo h1{
+
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    color:white
+
+}
+
+.profesores_2{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    padding: 30px 60px 30px 100px;
+    margin-right: 150px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.profesores{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    padding: 30px 100px 30px 60px;
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+
+.inprofesores{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    color:white
+}
+
+.inprofesores h4{
+font-size: 20px;
+}
+
+.inprofesores h3{
+    font-size: 30px;
+    color:turquoise
+    }
+    
+
+
+
+.inprofesores p {
+    text-align: justify;
+}
+
+.fotoprofe{
+    width:250px;
+    height: 320px;
+}
+
+/* FOOTER PARA TODOS */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+   
+    height: 200px;
+    width: 100%;
+    padding-top: 60px;
+    
+
+}
+
+
+
+.footer a{
+    color: white;
+    font-size: 40px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Viajes Viajecito</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <h1>Viajes Viajecitos.com</h1>
+
+        <!-- <nav class="menu">
+
+            <a class="menu__enlaces" href="home.html">Home</a>
+
+        </nav> -->
+
+    </header>
+    <div class="cuerpo1">
+        <img class="cuerpo1_imagen" src="imagenes_agencia/caribe3.jpg" alt="vacaciones">
+        <h2 class="cuerpo1_texto1">Encuentra el viaje de tus sueños</h2>
+        <h3 class="cuerpo1_texto2">Ofertas de viajes, paquetes vacacionales, viajes todo incluido, vuelos y hoteles,
+            viajes combinados</h3>
+    </div>
+
+    <h1 class="antes_cuerpo2">¿No sabes donde viajar? <br>Deja que te inspiremos</h1>
+
+    <div class="cuerpo2">
+
+
+        <div class="cuerpo2_viaje">
+            <h2 class="cuerpo2_viaje_titulo">Nueva York</h2>
+            <img class="cuerpo2_viaje_imagen" src="imagenes_agencia/nyc.jpg" alt="vacaciones">
+            <h4 class="cuerpo2_viaje_texto">desde <span>700€</span></h4>
+        </div>
+
+        <div class="cuerpo2_viaje">
+            <h2 class="cuerpo2_viaje_titulo">Peru</h2>
+            <img class="cuerpo2_viaje_imagen" src="imagenes_agencia/peru.jpg" alt="vacaciones">
+            <h4 class="cuerpo2_viaje_texto">desde <span>1000€</span></h4>
+
+        </div>
+
+        <div class="cuerpo2_viaje">
+            <h2 class="cuerpo2_viaje_titulo">Paris</h2>
+            <img class="cuerpo2_viaje_imagen" src="imagenes_agencia/paris.jpg" alt="vacaciones">
+            <h4 class="cuerpo2_viaje_texto">desde <span>50€</span></h4>
+        </div>
+
+        <div class="cuerpo2_viaje">
+            <h2 class="cuerpo2_viaje_titulo">Australia</h2>
+            <img class="cuerpo2_viaje_imagen" src="imagenes_agencia/goldcoast.jpg" alt="vacaciones">
+            <h4 class="cuerpo2_viaje_texto">desde <span>1500€</span></h4>
+        </div>
+
+
+    </div>
+
+    <div class="cuerpo3">
+        <h2 class="cuerpo3_tittle">Contacta con nosotros</h2>
+
+        <form action="" class="cuerpo3_form">
+            <div class="cuerpo3_form_inputs">
+
+                <input type="text" id="nombre" placeholder='¿Cómo te llamas?'>
+                <input type="text" id="origen" placeholder='¿Origen?'>
+                <input type="text" id="destino" placeholder='¿Destino?'>
+                <input type="number" id="viajeros" placeholder='¿Cuantos viajeros?'>
+                <input type="date" id="fecha" placeholder='¿En qué fecha?'>
+
+            </div class="botones">
+
+            <input class="boton" onclick="pedirInfo()" type="reset" value="Quiero info">
+            <input class="boton" onclick="filtrar()" type="reset" value="Filtrar">
+
+            </div>
+
+        </form>
+
+       
+    </div>
+
+    <div class="cuerpo4">
+
+    <table class="tabla_filtrada" id="viajes_filtro">
+        <!-- <tr class="tabla_filtrada_tittle">
+            <th>Nombre</th>
+            <th>Origen</th>
+            <th>Destino</th>
+            <th>Viajeros</th>
+            <th>Fecha</th>
+        </tr>
+        <tr class="tabla_filtrada_inside">
+            <td>xxxx</td>
+            <td>xxx</td>
+            <td>xxxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr> -->
+    </table>
+
+</div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

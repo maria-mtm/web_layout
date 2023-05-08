@@ -1,0 +1,239 @@
+:root {
+    --primaryFont: Verdana, Arial, Helvetica, sans-serif;
+    --titlefont: 'Satisfy', cursive;
+    --generalfontsize: 10px;
+    --colorgreyfont: rgb(37, 37, 37);
+    --bgcolor: rgb(249, 246, 246);
+    --bgcolor2: white;
+    --colorborder: rgb(200, 200, 200);
+    --boxeswidth: 300px;
+    --boxesheight: 400px;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--primaryFont);
+}
+
+/* ------------------------------------------------------- */
+
+body {
+    background-color: var(--bgcolor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 200px 200px 200px
+}
+
+.contenedorPadre {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    background-color: var(--bgcolor);
+
+    width: 650px;
+    height: 480px;
+    gap: 30px
+}
+
+.contenedorhijo1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: var(--boxeswidth);
+    height: var(--boxesheight);
+
+
+
+}
+
+.contenedorhijo1 img {
+    width: 300px;
+
+}
+
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+
+.contenedorhijo2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    width: var(--boxeswidth);
+    height: var(--boxesheight);
+
+}
+
+/* ------------------------------------------------------- */
+.contenedorhijo2_1 {
+    border: 0.5px solid var(--colorborder);
+    width: var(--boxeswidth);
+    height: 500px;
+    background-color: var(--bgcolor2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.ig {
+    font-family: var(--titlefont);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    ;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4px;
+}
+
+.form input {
+    background-color: var(--bgcolor);
+    font-size: 9px;
+    width: 200px;
+    height: 30px;
+    border: 0.5px solid var(--colorborder);
+    border-radius: 2px;
+}
+
+.boton {
+    width: 200px;
+    height: 20px;
+    font-size: var(--generalfontsize);
+    background-color: rgb(134, 200, 238);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.form_boton {
+    margin-top: 15px;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--generalfontsize);
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.fb_text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(89, 96, 193);
+    font-weight: 700;
+
+}
+
+.fb_text a {
+    text-decoration: none;
+}
+
+.pw {
+    font-size: 9px;
+    color: var(--colorgreyfont);
+}
+
+/* ------------------------------------------------ */
+.contenedorhijo2_2 {
+    border: 1px solid var(--colorborder);
+    width: var(--boxeswidth);
+    height: 9vh;
+    font-size: var(--generalfontsize);
+    color: var(--colorgreyfont);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background-color: var(--bgcolor2);
+}
+
+.registrate {
+    font-weight: 700;
+    color: rgb(104, 184, 231);
+
+}
+
+.registrate a {
+    text-decoration: none;
+}
+
+/* -------------------------------------------------- */
+
+.contenedorhijo2_3 {
+    font-size: var(--generalfontsize);
+    margin-top: 1vh;
+    width: var(--boxeswidth);
+    color: var(--colorgreyfont);
+    /* border: 1px solid red; */
+}
+
+.contenedorhijo2_3 p {
+    text-align: center;
+}
+
+/* RESPONSIVE------------------------------ */
+
+@media screen and (max-width:875px) {
+
+    .contenedorhijo1 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+
+    .contenedorhijo2_1 {
+        border: none;
+        background-color: var(--bgcolor);
+        width: var(--boxeswidth);
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .contenedorhijo2_2 {
+
+        border: none;
+        background-color: var(--bgcolor);
+        width: var(--boxeswidth);
+        height: 9vh;
+        font-size: var(--generalfontsize);
+        color: var(--colorgreyfont);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+
+    }
+}
